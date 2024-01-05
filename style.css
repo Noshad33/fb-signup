@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+h1,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Banner */
+
+.banner{
+    padding:2px;
+    color: white;
+    background-color: #2d75e9;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.form-container{
+position: relative;
+right: 0px;
+
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    width: 237px;
+}
+.pass-key{
+   position: relative;
+   top:22px;
+   right: 225px;
+   text-decoration: none;
+   color: white;
+
+} 
+
+/* content */
+
+.main{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.items{
+    display: flex;
+    align-items: center;
+  
+}
+img{
+    margin-right: 30px;
+}
+
+/* Signup Container */
+.sign-up{
+    float: right;
+    margin-top:-300px;
+}
+.sign-up input{
+    margin-bottom:10px;
+}
+input[type=text]{
+height: 30px;
+width:39.5%;
+}
+.input{
+height: 30px;
+width: 80%;
+}
+.provide{
+    position: inherit;
+    text-decoration: none;
+    font-size: small;
+}
+.terms{
+    text-decoration: none;
+}
+.para{
+    width:400px;
+}
+.flex-container{
+    display:flex;
+}
+.signup{
+cursor: pointer;
+background-color: rgb(15, 90, 15);
+font-weight:bold;    
+color: white;
+border: none;
+border-radius: 3px;
+padding:10px;
+width:180px;
+margin-bottom:5px;
+}
+.submit{
+    background-color: rgb(32, 77, 144);
+    color: white;
+    padding: 3px;
+    border: 1px solid black;
+}
